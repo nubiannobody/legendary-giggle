@@ -119,15 +119,14 @@
     }
     */
 
-    function isCorrect(guess) {
-        if (guess === fact.answer) {
+    function isCorrect(guessString) {
+        if (guessString === fact.answer.toString()) {
             return true;
         }
     }
-    
 
-    /*function isCorrect (guess) {
-        return guess === fact.answer;
+    /*function isCorrect (guessString) {
+        return guessString === fact.answer.toString();
     }
     */
 
